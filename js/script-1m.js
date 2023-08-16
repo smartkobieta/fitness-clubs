@@ -18,13 +18,3 @@
 //document.body.style.backgroundColor = color;
 
 //3.
-const numbers = [51, 18, 13, 24, 7, 85, 9];
-let biggestNumber = number[0];
-
-for (const number of numbers) {
-  if (number > biggestNumber) {
-    biggestNumber = number;
-  }
-}
-
-console.log("biggestNumber: ", biggestNumber);
