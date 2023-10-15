@@ -18,3 +18,14 @@
 //document.body.style.backgroundColor = color;
 
 //3.
+const numbers = [51, 18, 13, 24, 7, 85, 9];
+let biggestNumber = numbers[0];
+
+for (const number of numbers) {
+  console.log(number);
+  if (number > biggestNumber) {
+    biggestNumber = number;
+  }
+}
+
+console.log("biggestNumber: ", biggestNumber);

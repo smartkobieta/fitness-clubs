@@ -9,3 +9,27 @@
     <script src="./js/script-1m.js" type="module"></script>
   </body>
 </html>
+
+Ось скрипт, який виконує описані Вами дії: ```javascript const categoriesList =
+dНапиши скрипт, який: Порахує і виведе в консоль кількість категорій в
+ul#categories, тобто елементів li.item. Для кожного элемента li.item у списку
+ul#categories, знайде і виведе в консоль текст заголовку елемента (тегу
+<h2>
+  ) і кількість елементів в категорії (усіх
+  <li>
+    , вкладених в нього). Для виконання цього завдання потрібно використати
+    метод forEach() і властивості навігації по DOM. В результаті, в консолі
+    будуть виведені наступні повідомлення. Number of categories: 3 Category:
+    Animals Elements: 4 Category: Products Elements: 3 Category: Technologies
+    Elements: 5ocument.querySelector('#categories'); const categoriesItems =
+    categoriesList.querySelectorAll('.item'); console.log(`Number of categories:
+    ${categoriesItems.length}`); categoriesItems.forEach((item) => { const
+    categoryTitle = item.querySelector('h2').textContent; const categoryElements
+    = item.querySelectorAll('li').length; console.log(`Category:
+    ${categoryTitle}`); console.log(`Elements: ${categoryElements}`); }); ```
+    Цей скрипт використовує метод `querySelectorAll()` для отримання всіх
+    елементів `li.item` в списку `ul#categories`. Потім він використовує метод
+    `forEach()` для ітерації по кожному елементу і виведенні необхідної
+    інформації в консоль.
+  </li>
+</h2>
